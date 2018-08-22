@@ -1,0 +1,27 @@
+{
+    "name": "loilo/lowlight",
+    "description": "Show syntax-highlighted code of 150+ languages in your terminal",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">= 5.6",
+        "scrivo/highlight.php": "v9.12.0.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "symfony/finder": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lowlight\\Test\\": "test/",
+            "Lowlight\\": "src/"
+        }
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Florian Reuschel",
+            "email": "florian@loilo.de"
+        }
+    ]
+}

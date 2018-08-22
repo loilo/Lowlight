@@ -1,0 +1,6 @@
+{
+  [[start:attr]]key[[end]]: value,
+  [[start:attr]]key2[[end]]: value,
+  [[start:string]]'key-3'[[end]]: value,
+  [[start:attr]]key4[[end]]: [[start:literal]]false[[end]] ? [[start:literal]]undefined[[end]] : [[start:literal]]true[[end]]
+}

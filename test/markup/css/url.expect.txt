@@ -1,0 +1,6 @@
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background[[end]]: [[start:built_in]]url[[end]]([[start:string]]"foo/bar/baz.jpg"[[end]]) }
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background[[end]]: [[start:built_in]]url[[end]]([[start:string]]'foo/bar/baz.jpg'[[end]]) }
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background[[end]]: [[start:built_in]]url[[end]](foo/bar/baz.jpg) }
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background-image[[end]]: [[start:built_in]]url[[end]](data:image/png;base64,TWFuIGlzIGRpc3=) }
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background-image[[end]]: [[start:built_in]]url[[end]]([[start:string]]"data:image/png;base64,TWFuIGlzIGRpc3="[[end]]) }
+[[start:selector-tag]]div[[end]] { [[start:attribute]]background-image[[end]]: [[start:built_in]]url[[end]]([[start:string]]'data:image/png;base64,TWFuIGlzIGRpc3='[[end]]) }

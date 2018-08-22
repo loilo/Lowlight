@@ -1,0 +1,1 @@
+=([[start:symbol]]N4[[end]] + [[start:symbol]]N5[[end]])*[[start:number]]0.055[[end]] + [[start:built_in]]N[[end]]([[start:comment]]"This is a comment."[[end]])

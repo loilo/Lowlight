@@ -1,0 +1,7 @@
+[[start:keyword]]progress: [[end]][[start:string]]+5[[end]]
+[[start:keyword]]progress: [[end]][[start:string]]+12[[end]]
+[[start:keyword]]progress: [[end]]29
+[[start:keyword]]progress: [[end]][[start:string]]-3[[end]]
+[[start:keyword]]progress: [[end]][[start:string]]-91[[end]]
+[[start:keyword]]progress: push[[end]]
+[[start:keyword]]progress: pop[[end]]

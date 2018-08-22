@@ -1,0 +1,1 @@
+[[start:keyword]]var[[end]] x = [[start:string]]'<p>this should <b>not</b> be highlighted as <em>HTML</em>'[[end]];

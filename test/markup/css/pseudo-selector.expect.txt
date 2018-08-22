@@ -1,0 +1,2 @@
+[[start:selector-tag]]li[[end]][[start:selector-pseudo]]:not(.red)[[end]]{}
+[[start:selector-tag]]li[[end]][[start:selector-pseudo]]:not(.red)[[end]][[start:selector-pseudo]]:not(.green)[[end]]{}

@@ -1,0 +1,10 @@
+[[start:string]]f'[[end]][[start:subst]]{name}[[end]][[start:string]]'[[end]]
+[[start:string]]f"[[end]][[start:subst]]{name + [[end]][[start:number]]5[[end]][[start:subst]]}[[end]][[start:string]]"[[end]]
+[[start:meta]]>>> [[end]][[start:string]]f"""
+[[end]][[start:meta]]... [[end]][[start:subst]]{
+[[end]][[start:meta]]... [[end]][[start:subst]]   name
+[[end]][[start:meta]]... [[end]][[start:subst]]}[[end]][[start:string]]
+[[end]][[start:meta]]... [[end]][[start:string]]"""[[end]]
+[[start:string]]rf"[[end]][[start:subst]]{name}[[end]][[start:string]]"[[end]]
+[[start:string]]fr"[[end]][[start:subst]]{name}[[end]][[start:string]]"[[end]]
+[[start:string]]f"[[end]][[start:subst]]{name + [[end]][[start:string]]f'[[end]][[start:subst]]{name}[[end]][[start:string]]'[[end]][[start:subst]]}[[end]][[start:string]]"[[end]]

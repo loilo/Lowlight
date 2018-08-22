@@ -1,0 +1,15 @@
+[[start:keyword]]module[[end]] hello
+
+[[start:keyword]]function[[end]] dyno = -> [[start:keyword]]DynamicObject[[end]]()
+
+[[start:keyword]]struct[[end]] human = { name }
+
+[[start:meta]]@annotated[[end]]
+[[start:keyword]]function[[end]] main = |args| {
+    [[start:keyword]]let[[end]] a = [[start:number]]1[[end]]
+    [[start:keyword]]var[[end]] b = [[start:number]]2[[end]]
+
+    [[start:keyword]]println[[end]]([[start:string]]"hello"[[end]])
+
+    [[start:keyword]]let[[end]] john = human([[start:string]]"John Doe"[[end]])
+}

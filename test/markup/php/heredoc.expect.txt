@@ -1,0 +1,14 @@
+[[start:keyword]]echo[[end]] [[start:string]]<<<EOT
+String with [[end]][[start:subst]]$var[[end]][[start:string]] and [[end]][[start:subst]]{$foo->bar[1]}[[end]][[start:string]].
+EOT;[[end]]
+
+[[start:keyword]]echo[[end]] [[start:string]]<<<EOT
+  string
+  EOT
+  still string
+EOT;[[end]]
+
+[[start:keyword]]array[[end]]([[start:string]]<<<EOD
+foobar!
+EOD[[end]]
+);

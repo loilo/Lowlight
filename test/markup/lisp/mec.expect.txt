@@ -1,0 +1,4 @@
+[[start:comment]]; MEC: Multiple Escape Characters. See https://github.com/isagalaev/highlight.js/issues/615[[end]]
+([[start:name]]|spaces and
+newlines|[[end]] x)
+([[start:name]]x[[end]] '|quoted|)

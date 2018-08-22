@@ -1,0 +1,12 @@
+[[start:template-tag]]{% [[end]][[start:keyword]]if[[end]][[start:template-tag]] posts|[[end]][[start:keyword]]length[[end]][[start:template-tag]] %}[[end]]
+  [[start:template-tag]]{% [[end]][[start:keyword]]for[[end]][[start:template-tag]] article in articles %}[[end]]
+  &lt;div&gt;
+  [[start:template-variable]]{{ article.title|[[end]][[start:keyword]]upper[[end]][[start:template-variable]]() }}[[end]]
+
+  [[start:comment]]{# outputs 'WELCOME' #}[[end]]
+  &lt;/div&gt;
+  [[start:template-tag]]{% [[end]][[start:keyword]]endfor[[end]][[start:template-tag]] %}[[end]]
+[[start:template-tag]]{% [[end]][[start:keyword]]endif[[end]][[start:template-tag]] %}[[end]]
+
+[[start:template-tag]]{% [[end]][[start:keyword]]set[[end]][[start:template-tag]] user = json_encode(user) %}[[end]]
+

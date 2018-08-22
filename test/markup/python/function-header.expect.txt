@@ -1,0 +1,2 @@
+[[start:keyword]]def[[end]][[start:function]] [[end]][[start:title]]f[[end]][[start:params]](x: int)[[end]][[start:function]] -> [[end]][[start:keyword]]None[[end]][[start:function]]:[[end]]
+    [[start:keyword]]pass[[end]]

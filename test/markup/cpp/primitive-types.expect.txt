@@ -1,0 +1,3 @@
+[[start:keyword]]const[[end]] [[start:keyword]]uint64_t[[end]] MAX_INT_64;
+
+[[start:keyword]]struct[[end]][[start:class]] [[end]][[start:title]]position_tag[[end]][[start:class]];[[end]]

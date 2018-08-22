@@ -1,0 +1,8 @@
+[[start:selector-id]]#foo[[end]] {
+    [[start:selector-tag]]tag[[end]] [[start:selector-id]]#bar[[end]] {}
+    > [[start:selector-id]]#bar[[end]] {}
+    [[start:selector-id]]#bar[[end]] {}
+    [[start:selector-tag]]&[[end]][[start:selector-id]]#bar[[end]] {}
+    [[start:selector-tag]]&[[end]][[start:selector-pseudo]]:hover[[end]] {}
+    [[start:attribute]]height[[end]]: [[start:string]]~"@{height}px"[[end]];
+}

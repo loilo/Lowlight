@@ -1,0 +1,1 @@
+[[start:keyword]]function[[end]][[start:function]] [[end]][[start:title]]visibleTodoFilter[[end]][[start:function]]([[end]][[start:params]]state = [[end]][[start:string]]'watch'[[end]][[start:params]], action[[end]][[start:function]]) [[end]]{}

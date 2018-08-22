@@ -1,0 +1,13 @@
+[[start:number]]123[[end]];
+[[start:number]]123usize[[end]];
+[[start:number]]123_usize[[end]];
+[[start:number]]0xff00[[end]];
+[[start:number]]0xff_u8[[end]];
+[[start:number]]0b1111111110010000[[end]];
+[[start:number]]0b1111_1111_1001_0000_i32[[end]];
+[[start:number]]0o764317[[end]];
+[[start:number]]0o764317_u16[[end]];
+[[start:number]]123.0[[end]];
+[[start:number]]0.1[[end]];
+[[start:number]]0.1f32[[end]];
+[[start:number]]12E+99_f64[[end]];

@@ -1,0 +1,3 @@
+[[start:keyword]]let[[end]] foo;
+[[start:keyword]]let[[end]] [[start:keyword]]mut[[end]] bar;
+[[start:keyword]]let[[end]] _foo_bar;

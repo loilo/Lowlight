@@ -1,0 +1,9 @@
+[[start:keyword]]var[[end]] istr = [[start:string]]$"{{Hello}},\n[[end]][[start:subst]]{[[end]][[start:string]]$"\"[[end]][[start:subst]]{nested}[[end]][[start:string]]\""[[end]][[start:subst]] + [[end]][[start:string]]@" and "[[end]][[start:subst]] + [[end]][[start:string]]$@"""[[end]][[start:subst]]{nested}[[end]][[start:string]]"""[[end]][[start:subst]] [[end]][[start:comment]]/*comments*/[[end]][[start:subst]] }[[end]][[start:string]]"[[end]];
+[[start:keyword]]var[[end]] ivstr = [[start:string]]$@"{{Hello}},
+[[end]][[start:subst]]{
+[[end]][[start:string]]$"\"[[end]][[start:subst]]{nested}[[end]][[start:string]]\""[[end]][[start:subst]] + [[end]][[start:string]]@"
+and
+"[[end]][[start:subst]] + [[end]][[start:string]]$@"
+""[[end]][[start:subst]]{nested}[[end]][[start:string]]""
+"[[end]][[start:subst]]
+[[end]][[start:comment]]/*comments*/[[end]][[start:subst]] }[[end]][[start:string]]"[[end]];

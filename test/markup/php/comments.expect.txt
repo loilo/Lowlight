@@ -1,0 +1,19 @@
+[[start:meta]]<?php[[end]]
+
+[[start:comment]]/**
+ * [[end]][[start:doctag]]@param[[end]][[start:comment]] int $a
+ * [[end]][[start:doctag]]@return[[end]][[start:comment]] bool
+ */[[end]]
+[[start:keyword]]function[[end]][[start:function]] [[end]][[start:title]]isEven[[end]][[start:params]]($a)[[end]][[start:function]] [[end]]{
+    [[start:keyword]]return[[end]] ($a % [[start:number]]2[[end]]) === [[start:number]]0[[end]];
+}
+
+[[start:comment]]/**
+ * [[end]][[start:doctag]]TODO:[[end]][[start:comment]] Rely on isEven, but do not highlight bug.
+ *
+ * [[end]][[start:doctag]]@param[[end]][[start:comment]] int $a
+ * [[end]][[start:doctag]]@return[[end]][[start:comment]] bool
+ */[[end]]
+[[start:keyword]]function[[end]][[start:function]] [[end]][[start:title]]isOdd[[end]][[start:params]]($a)[[end]][[start:function]] [[end]]{
+    [[start:keyword]]return[[end]] ($a % [[start:number]]2[[end]]) === [[start:number]]1[[end]];
+}

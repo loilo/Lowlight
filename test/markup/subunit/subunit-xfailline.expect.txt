@@ -1,0 +1,3 @@
+[[start:keyword]]xfail test[[end]] simplename
+[[start:keyword]]xfail: test[[end]] simple name
+[[start:keyword]]xfail test[[end]] simple name

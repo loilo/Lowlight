@@ -1,0 +1,8 @@
+a = [[start:number]]'hff[[end]];
+A = [[start:number]]'HFF[[end]];
+b = [[start:number]]8'h33[[end]];
+B = [[start:number]]8'H33[[end]];
+c = [[start:number]]12[[end]];
+d = [[start:number]]'o755[[end]];
+e = [[start:number]]8'b1001_0001[[end]];
+f = [[start:number]]8'b1111zzzx[[end]];

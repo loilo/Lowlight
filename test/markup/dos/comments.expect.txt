@@ -1,0 +1,3 @@
+[[start:comment]]rem comment[[end]]
+[[start:comment]]  rem comment[[end]]
+[[start:built_in]]copy[[end]] a.txt b.txt > [[start:built_in]]rem[[end]] not_a_comment

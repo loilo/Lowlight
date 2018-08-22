@@ -1,0 +1,7 @@
+[[start:keyword]]message[[end]][[start:class]] [[end]][[start:title]]Container[[end]][[start:class]] [[end]]{
+  [[start:keyword]]message[[end]][[start:class]] [[end]][[start:title]]Message[[end]][[start:class]] [[end]]{
+    [[start:keyword]]required[[end]] [[start:built_in]]int64[[end]] id = [[start:number]]1[[end]];
+  }
+  [[start:keyword]]repeated[[end]] Message messages = [[start:number]]1[[end]];
+  [[start:keyword]]optional[[end]] [[start:built_in]]int32[[end]] number = [[start:number]]2[[end]];
+}

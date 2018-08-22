@@ -1,0 +1,11 @@
+[[start:keyword]]class[[end]] Car [[start:keyword]]extends[[end]] Vehicle {
+  [[start:keyword]]constructor[[end]]([[start:params]]speed, cost[[end]]) {
+    [[start:keyword]]super[[end]](speed);
+
+    [[start:keyword]]var[[end]] c = Symbol([[start:string]]'cost'[[end]]);
+    [[start:keyword]]this[[end]][c] = cost;
+
+    [[start:keyword]]this[[end]].intro = [[start:string]]`This is a car runs at
+      [[end]][[start:subst]]${speed}[[end]][[start:string]].`[[end]];
+  }
+}

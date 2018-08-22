@@ -1,0 +1,3 @@
+[[start:comment]]# numbers aren't highlighted in bash as their semantics is[[end]]
+[[start:comment]]# not strictly defined for command line parameters[[end]]
+$ tail -10 access.log

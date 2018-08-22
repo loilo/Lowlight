@@ -1,0 +1,2 @@
+[[start:keyword]]new[[end]][[start:function]] [[end]][[start:title]]create[[end]][[start:function]](name': [[end]][[start:type]]String[[end]][[start:function]]) =>[[end]]
+  name = name' + [[start:string]]'a'[[end]]

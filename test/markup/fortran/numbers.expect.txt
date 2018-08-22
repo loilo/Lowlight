@@ -1,0 +1,15 @@
+[[start:number]]1.d0[[end]]
+-[[start:number]]1.d0[[end]]
+[[start:number]]1.d-5[[end]]
+-[[start:number]]1.D5[[end]]
+[[start:number]]342.e+12[[end]]
+[[start:number]]12.[[end]]
+[[start:number]]12[[end]]
+[[start:number]].23[[end]]
+-[[start:number]].23[[end]]
+[[start:number]]1.E4[[end]]
+[[start:number]]1E4[[end]]
+[[start:number]]1D-4[[end]]
+var1
+va1r
+mo_tot_8 = [[start:number]]1.[[end]]/([[start:number]]0.4[[end]]*[[start:built_in]]log[[end]]([[start:built_in]]float[[end]](elec_num_tot_8+[[start:number]]0.4[[end]])))

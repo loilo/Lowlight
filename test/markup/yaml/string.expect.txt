@@ -1,0 +1,7 @@
+[[start:attr]]key:[[end]] [[start:string]]value[[end]]
+[[start:attr]]key:[[end]] [[start:string]]'some value'[[end]]
+[[start:attr]]key:[[end]] [[start:string]]"some value"[[end]]
+[[start:attr]]key:[[end]] [[start:string]]|
+  multi-string
+  value
+[[end]][[start:attr]]key:[[end]] [[start:literal]]true[[end]]

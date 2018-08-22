@@ -1,0 +1,19 @@
+[[start:keyword]]namespace[[end]] [[start:title]]Foo[[end]] [[start:comment]]// namespace[[end]]
+{
+    [[start:keyword]]public[[end]] [[start:keyword]]class[[end]] [[start:title]]Greet[[end]] : [[start:title]]Base[[end]] [[start:comment]]// class[[end]]
+    {
+        [[start:keyword]]public[[end]][[start:function]] [[end]][[start:title]]Greet[[end]][[start:function]]([[end]][[start:keyword]]string[[end]][[start:params]] who[[end]][[start:function]]) [[end]][[start:comment]]// function[[end]][[start:function]]
+        [[end]]{
+            Who = who;
+        }
+
+        [[start:keyword]]int[[end]][[start:function]][] [[end]][[start:title]]f[[end]][[start:function]]([[end]][[start:keyword]]int[[end]][[start:params]] val = [[end]][[start:number]]0[[end]][[start:function]])
+        [[end]]{
+            [[start:keyword]]new[[end]] Type();
+            [[start:keyword]]return[[end]] getType();
+            [[start:keyword]]throw[[end]] getError();
+            [[start:keyword]]await[[end]] Stuff();
+        }
+    }
+
+}

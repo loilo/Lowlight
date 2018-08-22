@@ -1,0 +1,3 @@
+[[start:keyword]]var[[end]] f = [[start:params]]x[[end]][[start:function]] =>[[end]] x;
+f([[start:params]]x[[end]][[start:function]] =>[[end]] x + [[start:function]]([[end]][[start:params]]y=[[end]][[start:number]]2[[end]][[start:params]], z=[[end]][[start:literal]]undefined[[end]][[start:params]], ...rest[[end]][[start:function]]) =>[[end]] y);
+[[start:params]]()[[end]][[start:function]] =>[[end]] [[start:literal]]null[[end]];

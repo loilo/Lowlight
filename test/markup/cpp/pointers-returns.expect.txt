@@ -1,0 +1,4 @@
+[[start:comment]]// These will all work:[[end]]
+[[start:keyword]]char[[end]][[start:function]]** [[end]][[start:title]]foo_bar[[end]][[start:params]]()[[end]];
+[[start:keyword]]char[[end]][[start:function]] ** [[end]][[start:title]]foo_bar[[end]][[start:params]]()[[end]];
+[[start:keyword]]char[[end]][[start:function]] **[[end]][[start:title]]foo_bar[[end]][[start:params]]()[[end]];

@@ -1,0 +1,34 @@
+([[start:builtin-name]]import[[end]] [java.lang.annotation Retention RetentionPolicy Target ElementType]
+        [javax.xml.ws WebServiceRef WebServiceRefs])
+
+([[start:name]]definterface[[end]] Foo ([[start:name]]foo[[end]] []))
+
+[[start:comment]];; annotation on type[[end]]
+([[start:builtin-name]]deftype[[end]] [[start:comment]]^{Deprecated true
+           Retention RetentionPolicy/RUNTIME
+           javax.annotation.processing.SupportedOptions [[[end]][[start:string]]"foo"[[end]][[start:comment]] [[end]][[start:string]]"bar"[[end]][[start:comment]] [[end]][[start:string]]"baz"[[end]][[start:comment]]]
+           javax.xml.ws.soap.Addressing {[[end]][[start:symbol]]:enabled[[end]][[start:comment]] [[end]][[start:literal]]false[[end]][[start:comment]] [[end]][[start:symbol]]:required[[end]][[start:comment]] [[end]][[start:literal]]true[[end]][[start:comment]]}
+           WebServiceRefs [([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"fred"[[end]][[start:comment]] [[end]][[start:symbol]]:type[[end]][[start:comment]] String})
+                           ([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"ethel"[[end]][[start:comment]] [[end]][[start:symbol]]:mappedName[[end]][[start:comment]] [[end]][[start:string]]"lucy"[[end]][[start:comment]]})]}[[end]]
+  Bar [[[start:comment]]^int[[end]] a
+       [[start:comment]];; on field[[end]]
+       [[start:comment]]^{:tag int
+         Deprecated true
+         Retention RetentionPolicy/RUNTIME
+         javax.annotation.processing.SupportedOptions [[[end]][[start:string]]"foo"[[end]][[start:comment]] [[end]][[start:string]]"bar"[[end]][[start:comment]] [[end]][[start:string]]"baz"[[end]][[start:comment]]]
+         javax.xml.ws.soap.Addressing {[[end]][[start:symbol]]:enabled[[end]][[start:comment]] [[end]][[start:literal]]false[[end]][[start:comment]] [[end]][[start:symbol]]:required[[end]][[start:comment]] [[end]][[start:literal]]true[[end]][[start:comment]]}
+         WebServiceRefs [([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"fred"[[end]][[start:comment]] [[end]][[start:symbol]]:type[[end]][[start:comment]] String})
+                         ([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"ethel"[[end]][[start:comment]] [[end]][[start:symbol]]:mappedName[[end]][[start:comment]] [[end]][[start:string]]"lucy"[[end]][[start:comment]]})]}[[end]]
+       b]
+  [[start:comment]];; on method[[end]]
+  Foo ([[start:comment]]^{Deprecated true
+         Retention RetentionPolicy/RUNTIME
+         javax.annotation.processing.SupportedOptions [[[end]][[start:string]]"foo"[[end]][[start:comment]] [[end]][[start:string]]"bar"[[end]][[start:comment]] [[end]][[start:string]]"baz"[[end]][[start:comment]]]
+         javax.xml.ws.soap.Addressing {[[end]][[start:symbol]]:enabled[[end]][[start:comment]] [[end]][[start:literal]]false[[end]][[start:comment]] [[end]][[start:symbol]]:required[[end]][[start:comment]] [[end]][[start:literal]]true[[end]][[start:comment]]}
+         WebServiceRefs [([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"fred"[[end]][[start:comment]] [[end]][[start:symbol]]:type[[end]][[start:comment]] String})
+                         ([[end]][[start:name]]WebServiceRef[[end]][[start:comment]] {[[end]][[start:symbol]]:name[[end]][[start:comment]] [[end]][[start:string]]"ethel"[[end]][[start:comment]] [[end]][[start:symbol]]:mappedName[[end]][[start:comment]] [[end]][[start:string]]"lucy"[[end]][[start:comment]]})]}[[end]]
+       foo [this] [[start:number]]42[[end]]))
+
+([[start:builtin-name]]seq[[end]] ([[start:name]].getAnnotations[[end]] Bar))
+([[start:builtin-name]]seq[[end]] ([[start:name]].getAnnotations[[end]] ([[start:name]].getField[[end]] Bar [[start:string]]"b"[[end]])))
+([[start:builtin-name]]seq[[end]] ([[start:name]].getAnnotations[[end]] ([[start:name]].getMethod[[end]] Bar [[start:string]]"foo"[[end]] [[start:literal]]nil[[end]])))

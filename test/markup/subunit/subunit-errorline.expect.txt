@@ -1,0 +1,2 @@
+[[start:keyword]]error: test[[end]] simplename
+[[start:keyword]]error: test[[end]] simple name

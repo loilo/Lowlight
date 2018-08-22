@@ -1,0 +1,14 @@
+[[start:title]]returnNull[[end]][[start:function]] = ->[[end]] [[start:literal]]null[[end]]
+[[start:title]]returnTrue[[end]][[start:function]] = [[end]][[start:params]]()[[end]][[start:function]] ->[[end]] [[start:literal]]true[[end]]
+[[start:title]]square[[end]][[start:function]] = [[end]][[start:params]](x)[[end]][[start:function]] ->[[end]] x * x
+
+npmWishlist.sha256 = [[start:params]](str)[[end]][[start:function]] ->[[end]]
+    [[start:keyword]]throw[[end]] [[start:keyword]]new[[end]] Error()
+
+str.split([[start:string]]" "[[end]]).map([[start:params]](m)[[end]][[start:function]] ->[[end]] m.charCodeAt([[start:number]]0[[end]]))
+
+fs.readFile([[start:string]]"package.json"[[end]], [[start:string]]"utf-8"[[end]], [[start:params]](err, content)[[end]][[start:function]] ->[[end]]
+  data = JSON.parse(content)
+
+  data.version
+)

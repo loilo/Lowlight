@@ -1,0 +1,5 @@
+str =~ [[start:regexp]]/^(?:foo)$/[[end]]
+str =~ [[start:regexp]]%r{foo|bar|buz$}[[end]]
+str =~ [[start:regexp]]%r!foo|bar$![[end]]
+str =~ [[start:regexp]]%r[foo|bar$][[end]]
+str =~ [[start:regexp]]%r(\(foo|bar\)$)[[end]]

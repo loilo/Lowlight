@@ -1,0 +1,3 @@
+[[start:keyword]]uxsuccess test[[end]] simplename
+[[start:keyword]]uxsuccess: test[[end]] simple name
+[[start:keyword]]uxsuccess test[[end]] simple name

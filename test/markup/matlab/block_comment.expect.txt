@@ -1,0 +1,27 @@
+[[start:comment]]%{ evaluate_this = false; % Evaluated as regular single-line comment[[end]]
+evaluate_this = true;
+[[start:comment]]%}[[end]]
+
+evaluate_this = true;
+[[start:comment]]
+%{
+This is a multi-line comment
+evaluate_this = false;
+%{
+%}
+[[end]]
+evaluate_this = true;
+[[start:comment]]
+%{
+Opening (%{) and closing (%}) block comment markers can be within a comment block
+%}
+[[end]]
+evaluate_this = true;
+[[start:comment]]
+    %{
+    Indented block comments can be indented
+or not
+and whitespace can be added before or after the %{ and %}
+  %}   
+[[end]]
+evaluate_this = true;

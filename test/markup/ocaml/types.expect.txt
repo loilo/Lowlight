@@ -1,0 +1,17 @@
+[[start:comment]](* type variables *)[[end]]
+[[start:keyword]]type[[end]] [[start:symbol]]'a[[end]] t = [[start:symbol]]'a[[end]] [[start:built_in]]list[[end]]
+[[start:keyword]]let[[end]] f (a : [[start:symbol]]'a[[end]] [[start:built_in]]list[[end]]) : [[start:symbol]]'a[[end]] = [[start:type]]List[[end]].hd a
+
+[[start:comment]](* polymorphic variants *)[[end]]
+[[start:keyword]]type[[end]] t = [ [[start:type]]`A[[end]] | [[start:type]]`B[[end]] ]
+
+[[start:comment]](* variants *)[[end]]
+[[start:keyword]]type[[end]] result = [[start:type]]Sat[[end]] | [[start:type]]Unsat[[end]] | [[start:type]]Unknown[[end]]
+
+[[start:comment]](* module and module types *)[[end]]
+[[start:keyword]]module[[end]] [[start:keyword]]type[[end]] [[start:type]]S[[end]] = [[start:keyword]]sig[[end]]
+  [[start:keyword]]val[[end]] compute : [[start:built_in]]unit[[end]] -> [[start:built_in]]unit[[end]]
+[[start:keyword]]end[[end]]
+[[start:keyword]]module[[end]] [[start:type]]Impl[[end]] : [[start:type]]S[[end]] = [[start:keyword]]struct[[end]]
+  [[start:keyword]]let[[end]] compute [[start:literal]]()[[end]] = [[start:literal]]()[[end]]
+[[start:keyword]]end[[end]]

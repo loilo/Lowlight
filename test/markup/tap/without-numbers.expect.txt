@@ -1,0 +1,6 @@
+[[start:meta]]1..6[[end]]
+[[start:symbol]]not ok[[end]]
+[[start:symbol]]ok[[end]]
+[[start:symbol]]not ok[[end]]
+[[start:symbol]]ok[[end]]
+[[start:symbol]]ok[[end]]

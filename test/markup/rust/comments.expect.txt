@@ -1,0 +1,3 @@
+[[start:comment]]/* rust has
+[[end]][[start:comment]]/* nested [[end]][[start:comment]]/* block */[[end]][[start:comment]] */[[end]][[start:comment]]
+*/[[end]] comments

@@ -1,0 +1,8 @@
+[[start:comment]]//------ underscore.js ------[[end]]
+[[start:keyword]]export[[end]] [[start:keyword]]default[[end]] [[start:keyword]]function[[end]][[start:function]] ([[end]][[start:params]]obj[[end]][[start:function]]) [[end]]{};
+[[start:keyword]]export[[end]] [[start:keyword]]function[[end]][[start:function]] [[end]][[start:title]]each[[end]][[start:function]]([[end]][[start:params]]obj, iterator, context[[end]][[start:function]]) [[end]]{};
+[[start:keyword]]export[[end]] { each [[start:keyword]]as[[end]] forEach };
+[[start:keyword]]export[[end]] [[start:keyword]]function[[end]][[start:function]] [[end]][[start:title]]something[[end]][[start:function]]([[end]][[start:function]]) [[end]]{};
+
+[[start:comment]]//------ main.js ------[[end]]
+[[start:keyword]]import[[end]] _, { each, something [[start:keyword]]as[[end]] otherthing } [[start:keyword]]from[[end]] [[start:string]]'underscore'[[end]];

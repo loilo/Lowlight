@@ -1,0 +1,6 @@
+[[start:keyword]]public[[end]] [[start:keyword]]void[[end]][[start:function]] MyClass.[[end]][[start:title]]doSomething[[end]][[start:params]]()[[end]][[start:function]] [[end]][[start:keyword]]throws[[end]][[start:function]] Exception[[end]]{
+  [[start:comment]]// intertype method body[[end]]
+}
+[[start:keyword]]public[[end]] [[start:keyword]]void[[end]][[start:function]] A.[[end]][[start:title]]doSomething[[end]][[start:params]]([[end]][[start:keyword]]int[[end]][[start:params]] param1)[[end]]{
+  [[start:comment]]// intertype method body[[end]]
+}

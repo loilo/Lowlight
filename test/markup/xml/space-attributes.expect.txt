@@ -1,0 +1,3 @@
+[[start:tag]]<[[end]][[start:name]]img[[end]][[start:tag]] [[end]][[start:attr]]src[[end]][[start:tag]] =[[end]][[start:string]]"/pics/foo.jpg"[[end]][[start:tag]]>[[end]]
+[[start:tag]]<[[end]][[start:name]]img[[end]][[start:tag]] [[end]][[start:attr]]src[[end]][[start:tag]]= [[end]][[start:string]]"/pics/foo.jpg"[[end]][[start:tag]]>[[end]]
+[[start:tag]]<[[end]][[start:name]]img[[end]][[start:tag]] [[end]][[start:attr]]src[[end]][[start:tag]] = [[end]][[start:string]]"/pics/foo.jpg"[[end]][[start:tag]]>[[end]]

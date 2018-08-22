@@ -1,0 +1,10 @@
+[[start:keyword]]protocol[[end]][[start:class]] [[end]][[start:title]]Protocol[[end]][[start:class]] [[end]]{
+  [[start:keyword]]func[[end]][[start:function]] [[end]][[start:title]]f1[[end]][[start:params]]()[[end]]
+  [[start:keyword]]func[[end]][[start:function]] [[end]][[start:title]]f2[[end]][[start:params]]()[[end]]
+}
+
+[[start:keyword]]class[[end]][[start:class]] [[end]][[start:title]]MyClass[[end]][[start:class]] [[end]]{
+  [[start:keyword]]func[[end]][[start:function]] [[end]][[start:title]]f[[end]][[start:params]]()[[end]] {
+    [[start:keyword]]return[[end]] [[start:literal]]true[[end]]
+  }
+}

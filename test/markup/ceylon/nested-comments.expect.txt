@@ -1,0 +1,5 @@
+[[start:comment]]/*
+ [[end]][[start:comment]]/*
+  Ceylon has nested comments.
+  */[[end]][[start:comment]]
+ */[[end]]

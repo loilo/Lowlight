@@ -1,0 +1,4 @@
+[[start:meta]]<?[[end]] [[start:keyword]]echo[[end]] [[start:string]]'php'[[end]]; [[start:comment]]/* ?> */[[end]] [[start:meta]]?>[[end]]
+[[start:tag]]<[[end]][[start:name]]body[[end]][[start:tag]]>[[end]]
+[[start:tag]]<[[end]][[start:name]]script[[end]][[start:tag]]>[[end]][[start:built_in]]document[[end]].write([[start:string]]'Legacy code'[[end]]);[[start:tag]]</[[end]][[start:name]]script[[end]][[start:tag]]>[[end]]
+[[start:tag]]</[[end]][[start:name]]body[[end]][[start:tag]]>[[end]]

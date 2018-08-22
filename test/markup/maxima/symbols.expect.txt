@@ -1,0 +1,18 @@
+[[start:comment]]/* symbolic constants */[[end]]
+
+[[[start:literal]]true[[end]], [[start:literal]]false[[end]], [[start:literal]]unknown[[end]], [[start:literal]]inf[[end]], [[start:literal]]minf[[end]], [[start:literal]]ind[[end]],
+ [[start:literal]]und[[end]], [[start:literal]]%e[[end]], [[start:literal]]%i[[end]], [[start:literal]]%pi[[end]], [[start:literal]]%phi[[end]], [[start:literal]]%gamma[[end]]];
+
+[[start:comment]]/* built-in variables */[[end]]
+
+[[[start:symbol]]_[[end]], [[start:symbol]]__[[end]], [[start:symbol]]%[[end]], [[start:symbol]]%%[[end]], [[start:built_in]]linel[[end]], [[start:built_in]]simp[[end]], [[start:built_in]]dispflag[[end]],
+ [[start:built_in]]stringdisp[[end]], [[start:built_in]]lispdisp[[end]], [[start:built_in]]%edispflag[[end]]];
+
+[[start:comment]]/* built-in functions */[[end]]
+
+[[[start:built_in]]sin[[end]], [[start:built_in]]cosh[[end]], [[start:built_in]]exp[[end]], [[start:built_in]]atan2[[end]], [[start:built_in]]sqrt[[end]], [[start:built_in]]log[[end]], [[start:built_in]]struve_h[[end]],
+ [[start:built_in]]sublist_indices[[end]], [[start:built_in]]read_array[[end]]];
+
+[[start:comment]]/* user-defined symbols */[[end]]
+
+[foo, ?bar, baz%, quux_mumble_blurf];

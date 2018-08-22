@@ -1,0 +1,1 @@
+[[start:template-variable]]{{ "string with spaces"|[[end]][[start:keyword]]url_encode[[end]][[start:template-variable]] }}[[end]]

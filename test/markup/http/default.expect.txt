@@ -1,0 +1,7 @@
+[[start:keyword]]POST[[end]] [[start:string]]/task?id=1[[end]] HTTP/1.1
+[[start:attribute]]Host[[end]]: example.org
+[[start:attribute]]Content-Type[[end]]: application/json; charset=utf-8
+[[start:attribute]]Content-Length[[end]]: 19
+
+{[[start:attr]]"status"[[end]]: [[start:string]]"ok"[[end]], [[start:attr]]"extended"[[end]]: [[start:literal]]true[[end]]}
+

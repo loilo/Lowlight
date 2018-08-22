@@ -1,0 +1,9 @@
+[[start:keyword]]long[[end]] creditCardNumber = [[start:number]]1234_5678_9012_3456L[[end]];
+[[start:keyword]]long[[end]] socialSecurityNumber = [[start:number]]999_99_9999L[[end]];
+[[start:keyword]]float[[end]] pi = [[start:number]]3.14_15F[[end]];
+[[start:keyword]]long[[end]] hexBytes = [[start:number]]0xFF_EC_DE_5E[[end]];
+[[start:keyword]]long[[end]] hexWords = [[start:number]]0xCAFE_BABE[[end]];
+[[start:keyword]]long[[end]] maxLong = [[start:number]]0x7fff_ffff_ffff_ffffL[[end]];
+[[start:keyword]]byte[[end]] nybbles = [[start:number]]0b0010_0101[[end]];
+[[start:keyword]]long[[end]] bytes = [[start:number]]0b11010010_01101001_10010100_10010010[[end]];
+[[start:keyword]]int[[end]] n = [[start:number]]1234[[end]] + Contacts._ID;

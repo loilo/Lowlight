@@ -1,0 +1,13 @@
+[[start:meta]]#[[end]][[start:meta-keyword]]include[[end]][[start:meta]] [[end]][[start:meta-string]]<iostream>[[end]]
+[[start:meta]]#[[end]][[start:meta-keyword]]define[[end]][[start:meta]] foo 1<<16[[end]]
+
+[[start:meta]]#[[end]][[start:meta-keyword]]ifdef[[end]][[start:meta]] DEBUG[[end]]
+[[start:function]]TYPE1 [[end]][[start:title]]foo[[end]][[start:params]]([[end]][[start:keyword]]void[[end]][[start:params]])[[end]][[start:function]]
+[[end]][[start:meta]]#[[end]][[start:meta-keyword]]else[[end]][[start:function]]
+[[end]][[start:keyword]]int[[end]][[start:function]] [[end]][[start:title]]foo[[end]][[start:params]]([[end]][[start:keyword]]void[[end]][[start:params]])[[end]][[start:function]]
+[[end]][[start:meta]]#[[end]][[start:meta-keyword]]endif[[end]][[start:function]]
+[[end]]{ }
+
+[[start:meta]]#[[end]][[start:meta-keyword]]define[[end]][[start:meta]] x(v) ((v))[[end]]
+[[start:meta]]# [[end]][[start:meta-keyword]]define[[end]][[start:meta]] x(v) ((v))[[end]]
+[[start:meta]]#  [[end]][[start:meta-keyword]]define[[end]][[start:meta]] x(v) ((v))[[end]]

@@ -1,0 +1,7 @@
+[[start:attribute]]dn[[end]]: uid=user.0,ou=People,dc=example,dc=com
+[[start:attribute]]changeType[[end]]: modify
+[[start:attribute]]add[[end]]: cn
+[[start:attribute]]cn[[end]]: Morris Day
+[[start:literal]]-[[end]]
+[[start:attribute]]add[[end]]: mobile
+[[start:attribute]]mobile[[end]]: (408) 555-7844

@@ -1,0 +1,3 @@
+[[start:keyword]]infix[[end]] [[start:number]]3[[end]] `foo`
+[[start:keyword]]infixl[[end]] [[start:number]]6[[end]] `bar`
+[[start:keyword]]infixr[[end]] [[start:number]]9[[end]] `baz`
