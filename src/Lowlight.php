@@ -217,38 +217,10 @@ class Lowlight
         }
     }
 
-    // For debugging
-    // protected function createOpenerSequence($token)
-    // {
-    //     if (!isset($this->theme[$token])) {
-    //         return "<START $token>";
-    //     } else {
-    //         $codeOrRgb = $this->theme[$token];
-
-    //         if (is_string($codeOrRgb)) {
-    //             if (isset(static::$colorCodes[$codeOrRgb])) {
-    //                 return "<START $token | $codeOrRgb>";//static::$colorCodes[$codeOrRgb];
-    //             } else {
-    //                 return "<START $token>";//static::DEFAULT_START_SEQUENCE;
-    //             }
-    //         } elseif (is_array($codeOrRgb)) {
-    //             return "<START  $token | [" . join(', ', $codeOrRgb) . "]>";//;"\033[38;2;" . join(';', $codeOrRgb) . 'm';
-    //         } else {
-    //             return "<START $token>";//static::DEFAULT_START_SEQUENCE;
-    //         }
-    //     }
-    // }
-
     protected function open($token)
     {
-        // if (in_array($token, static::$languages)) {
-        //     return '';
-        // }
-
         $result = '';
         if (sizeof($this->stack)) {
-            // $openToken = $this->stack[sizeof($this->stack) - 1];
-            // $result .= "<END $openToken>";
             $result .= static::END_SEQUENCE;
         }
 
@@ -265,8 +237,6 @@ class Lowlight
 
         array_pop($this->stack);
 
-        // For debugging
-        // $result .= "<END $token>";
         $result .= static::END_SEQUENCE;
 
         if (sizeof($this->stack)) {
