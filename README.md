@@ -138,7 +138,7 @@ $ll->theme = [
 
     'emphasis' => 'red',
     'strong' => 'red'
-]
+];
 ```
 
 ## Credit
