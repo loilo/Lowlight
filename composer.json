@@ -13,8 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lowlight\\Test\\": "test/",
             "Lowlight\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lowlight\\Test\\": "test/"
         }
     },
     "license": "BSD-3-Clause",
