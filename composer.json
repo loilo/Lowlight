@@ -2,7 +2,7 @@
     "name": "loilo/lowlight",
     "description": "Show syntax-highlighted code of 150+ languages in your terminal",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "require": {
         "php": ">= 5.6",
         "scrivo/highlight.php": "v9.12.0.4"
