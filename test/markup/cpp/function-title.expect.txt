@@ -1,9 +1,0 @@
-[[start:keyword]]int[[end]][[start:function]] [[end]][[start:title]]main[[end]][[start:params]]()[[end]][[start:function]] [[end]]{
-  A a = [[start:keyword]]new[[end]] A();
-  [[start:keyword]]int[[end]] b = b * sum([[start:number]]1[[end]], [[start:number]]2[[end]]);
-  [[start:keyword]]if[[end]] (a->check1())
-    [[start:keyword]]return[[end]] [[start:number]]3[[end]];
-  [[start:keyword]]else[[end]] [[start:keyword]]if[[end]] (a->check2())
-    [[start:keyword]]return[[end]] [[start:number]]4[[end]];
-  [[start:keyword]]return[[end]] a->result();
-}

@@ -1,8 +1,0 @@
-[[start:keyword]]success test[[end]] simplename1
-[[start:keyword]]success: test[[end]] simplename2
-[[start:keyword]]successful test[[end]] simplename3
-[[start:keyword]]successful: test[[end]] simplename4
-[[start:keyword]]success test[[end]] simple name1
-[[start:keyword]]success: test[[end]] simple name2
-[[start:keyword]]successful test[[end]] simple name3
-[[start:keyword]]successful: test[[end]] simple name4

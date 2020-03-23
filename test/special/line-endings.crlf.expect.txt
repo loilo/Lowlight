@@ -1,4 +1,0 @@
-[[start:comment]]// FileComponent Class[[end]]
-[[start:keyword]]export[[end]] [[start:keyword]]class[[end]][[start:class]] [[end]][[start:title]]FileComponent[[end]][[start:class]] [[end]]{
-    file = { [[start:attr]]name[[end]]: [[start:string]]'logo.svg'[[end]], [[start:attr]]size[[end]]: [[start:number]]2120109[[end]], [[start:attr]]type[[end]]: [[start:string]]'image/svg'[[end]] };
-}

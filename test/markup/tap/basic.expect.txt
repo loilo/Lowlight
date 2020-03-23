@@ -1,5 +1,0 @@
-[[start:meta]]1..4[[end]]
-[[start:symbol]]ok[[end]][[start:number]] 1 [[end]]- Input file opened
-[[start:symbol]]not ok[[end]][[start:number]] 2 [[end]]- First line of the input valid
-[[start:symbol]]ok[[end]][[start:number]] 3 [[end]]- Read the rest of the file
-[[start:symbol]]not ok[[end]][[start:number]] 4 [[end]]- Summarized correctly [[start:comment]]# TODO Not written yet[[end]]

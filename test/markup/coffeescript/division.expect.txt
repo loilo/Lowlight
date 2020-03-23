@@ -1,8 +1,0 @@
-[[start:comment]]# Divisions[[end]]
-x = [[start:number]]6[[end]]/foo/i
-x = [[start:number]]6[[end]] /foo
-x = [[start:number]]6[[end]] / foo
-x = [[start:number]]6[[end]] /foo * [[start:number]]2[[end]]/gm
-x = f /foo
-x = f / foo / gm
-x = f /foo * [[start:number]]2[[end]]/[[start:number]]6[[end]]

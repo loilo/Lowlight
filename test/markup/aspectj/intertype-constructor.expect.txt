@@ -1,3 +1,0 @@
-[[start:keyword]]public[[end]][[start:function]] MyClass.[[end]][[start:title]]new[[end]][[start:params]]()[[end]][[start:function]] [[end]][[start:keyword]]throws[[end]][[start:function]] Exception[[end]]{
-  [[start:comment]]// intertype constructor body[[end]]
-}

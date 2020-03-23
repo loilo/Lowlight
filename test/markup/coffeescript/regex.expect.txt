@@ -1,8 +1,0 @@
-[[start:comment]]# Regexps[[end]]
-x = [[start:regexp]]/\//[[end]]
-x = [[start:regexp]]/\n/[[end]]
-x = [[start:regexp]]/ab\/ ab/[[end]]
-x = f [[start:regexp]]/6 * 2/[[end]] - [[start:number]]3[[end]]
-x = f [[start:regexp]]/foo * 2/gm[[end]]
-x = [[start:keyword]]if[[end]] [[start:literal]]true[[end]] [[start:keyword]]then[[end]] [[start:regexp]]/\n/[[end]] [[start:keyword]]else[[end]] [[start:regexp]]/[.,]+/[[end]]
-x = [[start:regexp]]///^key-[[end]][[start:subst]]#{key}[[end]][[start:regexp]]-\d+///[[end]]

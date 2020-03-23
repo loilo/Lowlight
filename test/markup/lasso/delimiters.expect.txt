@@ -1,7 +1,0 @@
-<div>
-[[start:meta]][[[end]][[start:built_in]]local[[end]](y[[start:type]]::decimal[[end]] = [[start:number]].57721[[end]])[[start:meta]]][[end]]
-[[start:meta]][noprocess][[end]] <?lasso delimiters?> [until] [[start:meta]][/noprocess[[end]][[start:meta]]][[end]]
-[[start:meta]][no_square_brackets[[end]][[start:meta]]][[end]] skip subsequent [square brackets]
-[[start:comment]]<!--ignore <?LassoScript in HTML comments ?>-->[[end]]
-[[start:meta]]<?=[[end]]!#y ? [[start:literal]]true[[end]] | [[start:string]]`string`[[end]][[start:meta]]?>[[end]]
-</div>

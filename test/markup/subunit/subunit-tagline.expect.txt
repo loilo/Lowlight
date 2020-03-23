@@ -1,5 +1,0 @@
-[[start:keyword]]tags:[[end]] fuzz unit beta functional
-[[start:keyword]]tags:[[end]] -functional basic -beta
-[[start:keyword]]tags:[[end]] -unit
-[[start:keyword]]tags:[[end]] unit
-[[start:keyword]]tags:[[end]] ddd

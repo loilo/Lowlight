@@ -1,6 +1,0 @@
-[[start:comment]]/* digit separators */[[end]]
-[[start:keyword]]int[[end]] number = [[start:number]]2'555'555'555[[end]]; [[start:comment]]// digit separators[[end]]
-[[start:keyword]]float[[end]] exponentFloat = [[start:number]].123'456e3'000[[end]]; [[start:comment]]// digit separators in floats[[end]]
-[[start:keyword]]float[[end]] suffixed = [[start:number]]3.000'001'234f[[end]] [[start:comment]]// digit separators in suffixed numbers[[end]]
-[[start:keyword]]char[[end]] word[] = { [[start:string]]'3'[[end]], [[start:string]]'\0'[[end]] }; [[start:comment]]// make sure digit separators don't mess up chars[[end]]
-[[start:keyword]]float[[end]] negative = [[start:number]]-123.0f[[end]]; [[start:comment]]// negative floating point numbers[[end]]

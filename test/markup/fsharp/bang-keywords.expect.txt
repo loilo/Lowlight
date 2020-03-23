@@ -1,1 +1,0 @@
-[[start:keyword]]let![[end]] (result2 : byte[])  = stream.AsyncRead(bufferSize)

@@ -1,7 +1,0 @@
-[[start:meta]]@meta[[end]]
-[[start:keyword]]class[[end]][[start:class]] [[end]][[start:title]]C[[end]][[start:class]]:[[end]]
-
-[[start:meta]]    @decorator[[end]]
-    [[start:keyword]]def[[end]][[start:function]] [[end]][[start:title]]f[[end]][[start:params]](self, H, V, beta, r)[[end]][[start:function]]:[[end]]
-        S = (H @ beta - r).T @ inv(H @ V @ H.T) @ (H @ beta - r)
-        [[start:keyword]]return[[end]] S

@@ -1,6 +1,0 @@
-[[start:meta]]    .cfi_startproc[[end]]
-[[start:symbol]]_ZN3lib13is_whitespace17h28afa23272bf056bE:[[end]]
-[[start:meta]]    .align[[end]]  [[start:number]]16[[end]], [[start:number]]0x90[[end]]
-    [[start:keyword]]ja[[end]]  .Lfunc_end0
-[[start:symbol]].Lfunc_end0:[[end]]
-    [[start:keyword]]ret[[end]]

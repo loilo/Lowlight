@@ -1,5 +1,0 @@
-[[start:keyword]]int[[end]][[start:function]] [[end]][[start:title]]f[[end]][[start:params]](
-    [[end]][[start:keyword]]int[[end]][[start:params]] a = [[end]][[start:number]]1[[end]][[start:params]],
-    [[end]][[start:keyword]]char[[end]][[start:params]]* b = [[end]][[start:string]]"2"[[end]][[start:params]], [[end]][[start:comment]]// Line comment[[end]][[start:params]]
-    [[end]][[start:keyword]]double[[end]][[start:params]] c = [[end]][[start:number]]3.0[[end]][[start:params]] [[end]][[start:comment]]/* Block comment */[[end]][[start:params]]
-)[[end]];

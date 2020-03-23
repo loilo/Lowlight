@@ -1,4 +1,0 @@
-[[start:keyword]]type[[end]][[start:class]] [[end]][[start:title]]A[[end]]: Trait;
-[[start:keyword]]type[[end]][[start:class]] [[end]][[start:title]]A[[end]];
-[[start:keyword]]type[[end]][[start:class]] [[end]][[start:title]]A[[end]] = B;
-[[start:keyword]]type[[end]][[start:class]] [[end]][[start:title]]R[[end]]<T> = m::R<T, ConcreteError>

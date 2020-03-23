@@ -1,4 +1,0 @@
-[[start:comment]]{ Compiler directives }[[end]]
-[[start:meta]]{$I}[[end]] [[start:meta]](*$I*)[[end]]
-[[start:keyword]]procedure[[end]][[start:function]] [[end]][[start:title]]A[[end]][[start:params]](x: [[end]][[start:meta]]{$IFDEF Debug}[[end]][[start:params]]Integer[[end]][[start:meta]]{$ELSE}[[end]][[start:params]]Word[[end]][[start:meta]]{$ENDIF}[[end]][[start:params]])[[end]][[start:function]];[[end]]
-[[start:keyword]]begin[[end]] [[start:keyword]]end[[end]];

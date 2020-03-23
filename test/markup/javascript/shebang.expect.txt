@@ -1,3 +1,0 @@
-[[start:meta]]#!/usr/bin/env node[[end]]
-
-[[start:keyword]]var[[end]] a = [[start:number]]1[[end]];

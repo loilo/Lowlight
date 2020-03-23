@@ -1,3 +1,0 @@
-[[start:keyword]]skip test[[end]] simplename
-[[start:keyword]]skip: test[[end]] simple name
-[[start:keyword]]skip test[[end]] simple name
