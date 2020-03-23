@@ -1,4 +1,0 @@
-[[start:comment]]" comment[[end]]
-[[start:keyword]]let[[end]] one = [[start:string]]"string"[[end]] [[start:comment]]" comment[[end]]
-[[start:keyword]]let[[end]] two = [[start:string]]"crazy
-\ string with a \" quote"[[end]]

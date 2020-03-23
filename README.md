@@ -3,11 +3,13 @@
 </div>
 
 # Lowlight
-[![Travis](https://badgen.net/travis/loilo/Lowlight?icon=travis&label=unix)](https://travis-ci.org/Loilo/Lowlight) [![AppVeyor](https://badgen.net/appveyor/ci/loilo/Lowlight?icon=appveyor&label=windows)](https://ci.appveyor.com/project/Loilo/Lowlight) [![Packagist](https://badgen.net/packagist/v/loilo/Lowlight)](https://packagist.org/packages/loilo/Lowlight)
+[![Travis](https://badgen.net/travis/loilo/Lowlight?icon=travis&label=unix)](https://travis-ci.org/Loilo/Lowlight)
+[![AppVeyor](https://badgen.net/appveyor/ci/loilo/Lowlight?icon=appveyor&label=windows)](https://ci.appveyor.com/project/Loilo/Lowlight)
+[![Packagist](https://badgen.net/packagist/v/loilo/Lowlight)](https://packagist.org/packages/loilo/Lowlight)
 
-Lowlight shows syntax-highlighted code of 150+ languages in your terminal.
+Lowlight shows syntax-highlighted code of 150+ languages in your terminal. It's built on top of [highlight.php](https://github.com/scrivo/highlight.php).
 
-![Part of Lowlight's source code, highlighted with Lowlight](screenshot.png)
+<img alt="Part of Lowlight's source code, highlighted with Lowlight" src="screenshot.png" width="886">
 
 ## Installation
 This package is available via Composer. To add it to your project, just run:
@@ -30,7 +32,7 @@ To highlight a piece of PHP code, do this:
 ```php
 $ll = new Lowlight\Lowlight;
 
-echo $ll->highlight('php', $somePhpSnippet);
+echo $ll->highlight('php', $somePhpSnippet)->value;
 ```
 
 There are a lot of languages available. See the full list [here](https://github.com/scrivo/highlight.php/tree/v9.12.0.4/Highlight/languages).
@@ -46,20 +48,15 @@ $ll = new Lowlight\Lowlight;
 echo $ll->highlightAuto($userProvidedCode, [ 'json', 'yaml', 'ini' ])->value;
 ```
 
-Some things are to note here:
-* The second argument to the `highlightAuto()` method are the languages the code will be checked against.
-  * Passing the parameter is optional. It defaults to `[ 'xml', 'json', 'javascript', 'css', 'php', 'http' ]`.
-  * You can adjust the default detection languages by using
-    ```php
-    $ll->setDefaultAutodetectLanguages([ 'json', 'yaml', 'ini' ]);
-    ```
-* As opposed to the `highlight()` method, `highlightAuto()` does not return the highlighted code directly. Instead, it returns an object with three properties:
-  * `value`: The highlighted code
-  * `language`: The detected language
-  * `relevance`: How confident the parser is in its detection. This is not a range though, it's just the sum of relevant markers it encountered.
+The second argument to the `highlightAuto()` method are the languages the code will be checked against.
+* Passing the parameter is optional. It defaults to `[ 'xml', 'json', 'javascript', 'css', 'php', 'http' ]`.
+* You can adjust the default detection languages by calling
+  ```php
+  $ll->setDefaultAutodetectLanguages([ 'json', 'yaml', 'ini' ]);
+  ```
 
 ### Theming
-Theming is analogous to highlight.js' theming. Highlight.js represents each token as CSS class name (e.g. `hljs-comment`) while Lowlight uses the tokens as keys in a theming array:
+Theming works in analogy to highlight.js' theming. Highlight.js represents each token as CSS class name (e.g. `hljs-comment`) while Lowlight uses the tokens as keys in a theming array:
 
 ```php
 $ll->theme['comment'] = 'green';

@@ -1,3 +1,0 @@
-[[start:keyword]]fn[[end]][[start:function]] [[end]][[start:title]]sqr[[end]](i: [[start:built_in]]i32[[end]]) { i * i }
-[[start:keyword]]trait[[end]][[start:class]] [[end]][[start:title]]Minimum[[end]] : [[start:built_in]]Copy[[end]] {}
-[[start:keyword]]pub[[end]] [[start:keyword]]trait[[end]][[start:class]] [[end]][[start:title]]Builder[[end]] [[start:keyword]]where[[end]] [[start:keyword]]Self[[end]]: [[start:built_in]]Sized[[end]] + [[start:built_in]]Iterator[[end]]<Item=Event> {}

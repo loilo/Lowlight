@@ -1,2 +1,0 @@
-float_var := [[start:number]]1.0e10f[[end]]
-complex_var := [[start:number]]1.2e5[[end]]+[[start:number]]2.3i[[end]]

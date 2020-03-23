@@ -1,7 +1,0 @@
-[[start:keyword]]SET[[end]] test = [[start:number]]1[[end]]
-[[start:keyword]]set[[end]] [[start:symbol]]^global[[end]] = [[start:number]]2[[end]]
-[[start:keyword]]Write[[end]] [[start:string]]"Current date """[[end]], [[start:built_in]]$ztimestamp[[end]], [[start:string]]""", result: "[[end]], test + [[start:symbol]]^global[[end]] = [[start:number]]3[[end]]
-[[start:keyword]]if[[end]] ([[start:symbol]]^global[[end]] = [[start:number]]2[[end]]) {
-  [[start:keyword]]do[[end]] [[start:keyword]]##class[[end]](Cinema.Utils).AddShow([[start:string]]"test"[[end]]) [[start:comment]]// line comment[[end]]
-}
-[[start:keyword]]d[[end]]:([[start:symbol]]^global[[end]] = [[start:number]]2[[end]]) [[start:built_in]]..thisClassMethod[[end]]([[start:number]]1[[end]], [[start:number]]2[[end]], [[start:string]]"test"[[end]])

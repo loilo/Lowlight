@@ -1,8 +1,0 @@
-[[start:code]]    var code = true;[[end]]
-
-
-[[start:code]]```javascript
-var code = true;
-```[[end]]
-
-Inline [[start:code]]`code`[[end]], and [[start:code]]`more code`[[end]].

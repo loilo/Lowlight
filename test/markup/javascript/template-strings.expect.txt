@@ -1,1 +1,0 @@
-[[start:string]]`string [[end]][[start:subst]]${foo + [[end]][[start:string]]`str[[end]][[start:subst]]${[[end]][[start:literal]]undefined[[end]][[start:subst]]}[[end]][[start:string]]ing`[[end]][[start:subst]]}[[end]][[start:string]]`[[end]];

@@ -1,5 +1,0 @@
-[[start:comment]]/*
- * Multiline comment
- */[[end]]
-&sql([[start:keyword]]SELECT[[end]] * [[start:keyword]]FROM[[end]] Cinema.Film [[start:keyword]]WHERE[[end]] [[start:keyword]]Length[[end]] > [[start:number]]2[[end]])
-&js<[[start:keyword]]for[[end]] ([[start:keyword]]var[[end]] i = [[start:number]]0[[end]]; i < [[start:built_in]]String[[end]]([[start:string]]"test"[[end]]).split([[start:string]]""[[end]]).length); ++i) { [[start:built_in]]console[[end]].log(i); }>

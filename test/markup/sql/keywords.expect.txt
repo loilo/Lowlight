@@ -1,1 +1,0 @@
-[[start:keyword]]select[[end]] * [[start:keyword]]from[[end]] t [[start:keyword]]where[[end]] t.select [[start:keyword]]is[[end]] [[start:literal]]null[[end]];

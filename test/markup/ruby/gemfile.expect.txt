@@ -1,3 +1,0 @@
-gem [[start:string]]"gem_name1"[[end]], [[start:string]]">= 4.1"[[end]]
-
-gem [[start:string]]"gem_name2"[[end]], [[start:string]]"~> 4.1"[[end]]

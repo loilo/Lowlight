@@ -1,6 +1,0 @@
-[[start:keyword]]var[[end]] jsx = [[start:tag]]<[[end]][[start:name]]node[[end]][[start:tag]]/>[[end]];
-[[start:keyword]]var[[end]] jsx = [[start:tag]]<[[end]][[start:name]]node[[end]][[start:tag]]>[[end]][[start:tag]]<[[end]][[start:name]]child[[end]][[start:tag]]/>[[end]][[start:tag]]</[[end]][[start:name]]node[[end]][[start:tag]]>[[end]];
-[[start:keyword]]var[[end]] jsx = [[start:tag]]<[[end]][[start:name]]node[[end]][[start:tag]]>[[end]]...[[start:tag]]<[[end]][[start:name]]child[[end]][[start:tag]]>[[end]]...[[start:tag]]</[[end]][[start:name]]child[[end]][[start:tag]]>[[end]][[start:tag]]</[[end]][[start:name]]node[[end]][[start:tag]]>[[end]];
-[[start:keyword]]var[[end]] jsx = [[start:tag]]<[[end]][[start:name]]div[[end]][[start:tag]]>[[end]][[start:tag]]<[[end]][[start:name]]span[[end]][[start:tag]]>[[end]][[start:tag]]<[[end]][[start:name]]br[[end]][[start:tag]] />[[end]][[start:tag]]</[[end]][[start:name]]span[[end]][[start:tag]]>[[end]][[start:tag]]</[[end]][[start:name]]div[[end]][[start:tag]]>[[end]];
-[[start:keyword]]var[[end]] x = [[start:number]]5[[end]];
-[[start:keyword]]return[[end]] ([[start:tag]]<[[end]][[start:name]]node[[end]][[start:tag]] [[end]][[start:attr]]attr[[end]][[start:tag]]=[[end]][[start:string]]"value"[[end]][[start:tag]]>[[end]][[start:tag]]</[[end]][[start:name]]node[[end]][[start:tag]]>[[end]]);

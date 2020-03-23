@@ -1,7 +1,0 @@
-[[start:keyword]]public[[end]] [[start:keyword]]class[[end]][[start:class]] [[end]][[start:title]]DefaultDataDaoImpl[[end]][[start:class]] [[end]]{
-  [[start:keyword]]private[[end]] List<AbstractCmrDataProcessor> cmrDataProcessors;
-}
-
-[[start:keyword]]public[[end]] [[start:keyword]]class[[end]][[start:class]] [[end]][[start:title]]DefaultDataDaoImpl[[end]][[start:class]] [[end]]{
-  [[start:keyword]]private[[end]] List<AbstractCmrDataProcessor, AbstractCmrDataProcessor> cmrDataProcessors;
-}

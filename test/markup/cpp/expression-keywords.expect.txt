@@ -1,2 +1,0 @@
-[[start:keyword]]double[[end]] x = [[start:built_in]]exp[[end]]([[start:built_in]]log[[end]]([[start:number]]2[[end]])); [[start:comment]]// recognize built-ins[[end]]
-[[start:keyword]]return[[end]] [[start:number]]0[[end]];  [[start:comment]]// recognize keyword that started the expression[[end]]

@@ -1,6 +1,0 @@
-[[start:keyword]]namespace[[end]] [[start:title]]Dotted.Namespace[[end]]
-{
-    [[start:keyword]]class[[end]] [[start:title]]MyClass[[end]]
-    {
-    }
-}

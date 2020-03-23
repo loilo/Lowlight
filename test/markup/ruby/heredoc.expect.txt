@@ -1,8 +1,0 @@
-[[start:keyword]]def[[end]][[start:function]] [[end]][[start:title]]foo[[end]][[start:params]]()[[end]]
-  msg = [[start:string]]<<-HTML
-  <div>
-    <h4>[[end]][[start:subst]]#{bar}[[end]][[start:string]]</h4>
-  </div>
-  HTML[[end]]
-
-[[start:keyword]]def[[end]][[start:function]] [[end]][[start:title]]baz[[end]][[start:params]]()[[end]]
