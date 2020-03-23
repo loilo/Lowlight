@@ -42,4 +42,4 @@ before_test:
   - composer show
 
 test_script:
-  - vendor/bin/phpunit test
+  - vendor/bin/phpunit test --process-isolation
