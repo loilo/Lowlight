@@ -35,7 +35,7 @@ $ll = new Lowlight\Lowlight;
 echo $ll->highlight('php', $somePhpSnippet)->value;
 ```
 
-There are a lot of languages available. See the full list [here](https://github.com/scrivo/highlight.php/tree/v9.12.0.4/Highlight/languages).
+There are a lot of languages available. See the full list [here](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages).
 
 ### Automatic Language Detection
 If you're handling user-provided code, you may not always know the used language. That's where auto detection comes into play.
