@@ -140,4 +140,4 @@ $ll->theme = [
 
 ## Credit
 * [highlight.php](https://github.com/scrivo/highlight.php) (a port of [highlight.js](https://github.com/highlightjs/highlight.js)) is a syntax highlighter with HTML output. It does most of Lowlight's heavy lifting. Check it out!
-* Lowlight's logo is based on [a graphic](https://github.com/twitter/twemoji/blob/gh-pages/2/svg/1f6cb.svg) from the [Twemoji Project](https://github.com/twitter/twemoji) (licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+* Lowlight's logo is based on [a graphic](https://github.com/twitter/twemoji/blob/master/assets/svg/1f6cb.svg) from the [Twemoji Project](https://github.com/twitter/twemoji) (licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
