@@ -3,8 +3,7 @@
 </div>
 
 # Lowlight
-[![Travis](https://badgen.net/travis/loilo/Lowlight?icon=travis&label=unix)](https://travis-ci.org/Loilo/Lowlight)
-[![AppVeyor](https://badgen.net/appveyor/ci/loilo/Lowlight?icon=appveyor&label=windows)](https://ci.appveyor.com/project/Loilo/Lowlight)
+[![Tests](https://badgen.net/github/checks/loilo/Lowlight/master)](https://github.com/loilo/Lowlight/actions)
 [![Packagist](https://badgen.net/packagist/v/loilo/Lowlight)](https://packagist.org/packages/loilo/Lowlight)
 
 Lowlight shows syntax-highlighted code of 150+ languages in your terminal. It's built on top of [highlight.php](https://github.com/scrivo/highlight.php).
